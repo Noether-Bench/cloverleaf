@@ -1,0 +1,131 @@
+Hydro2d Version 2.000
+Task Count 1
+
+Hydro2d will run from the following input:-
+
+
+Initialising and generating
+
+Reading input file
+
+
+Reading specification for region_id 1
+
+ initial_density 0.2
+ initial_energy 1
+
+Reading specification for region_id 2
+
+ initial_density 1
+ initial_energy 2.5
+ region_id shape_selector rectangular
+ x_lower 0
+ x_upper 5
+ y_lower 0
+ y_upper 2
+
+ grid_nx 3840
+
+ grid_ny 3840
+
+ x_lower 0
+
+ y_lower 0
+
+ x_upper 10
+
+ y_upper 10
+
+ initial_timestep 0.04
+
+ timestep_rise 1.5
+
+ max_timestep 0.04
+
+ stop_time 0.55
+
+ max_steps 8
+
+ test_case_id 168
+ Profiler on
+
+
+
+
+Input read finished.
+
+Setting up initial shape_selector
+
+
+Mesh ratio of 1
+Decomposing the mesh into 1 by 1 chunks
+Decomposing the subdomain with 1 tile_list
+
+Generating chunks
+
+Problem initialised and generated
+
+Time 0
+                Volume          Mass            Density         Pressure        Internal Energy Kinetic Energy  Total Energy    
+ cycle_index: 0   1.000000e+02   2.800000e+01   2.800000e-01   2.800000e-01   4.300000e+01   0.000000e+00   4.300000e+01
+
+Starting the calculation
+ Step 1 time 0 control sound compute_dt  0.00154065 1,1 x 0 y 0
+Wall clock 0.017761
+Average time per cell 1.20449e-09
+Step time per cell    1.20449e-09
+ Step 2 time 0.00154065 control sound compute_dt  0.000940398 1,1 x 0 y 0
+Wall clock 0.0338371
+Average time per cell 1.14736e-09
+Step time per cell    1.08887e-09
+ Step 3 time 0.00248104 control sound compute_dt  0.00119489 1,1 x 0 y 0
+Wall clock 0.0498989
+Average time per cell 1.12799e-09
+Step time per cell    1.08798e-09
+ Step 4 time 0.00367594 control sound compute_dt  0.00125898 1,1 x 0 y 0
+Wall clock 0.0660779
+Average time per cell 1.1203e-09
+Step time per cell    1.09571e-09
+ Step 5 time 0.00493492 control sound compute_dt  0.00138544 1,1 x 0 y 0
+Wall clock 0.0821221
+Average time per cell 1.11385e-09
+Step time per cell    1.08691e-09
+ Step 6 time 0.00632036 control sound compute_dt  0.00138232 1,1 x 0 y 0
+Wall clock 0.0982099
+Average time per cell 1.11005e-09
+Step time per cell    1.08987e-09
+ Step 7 time 0.00770268 control sound compute_dt  0.00140862 1,1 x 0 y 0
+Wall clock 0.114322
+Average time per cell 1.10756e-09
+Step time per cell    1.09151e-09
+ Step 8 time 0.0091113 control sound compute_dt  0.00148154 1,1 x 0 y 0
+
+Time 0.0105928
+                Volume          Mass            Density         Pressure        Internal Energy Kinetic Energy  Total Energy    
+ cycle_index: 8   1.000000e+02   2.800000e+01   2.800000e-01   2.800000e-01   4.297294e+01   2.465082e-02   4.299759e+01
+
+
+Calculation run_finished
+Hydro2d is finishing
+Wall clock 0.131425
+First cycle_index overhead 0
+
+ Profiler Output        Time     Percentage
+ Timestep              :0.006305 4.797582
+ Ideal Gas             :0.005440 4.138881
+ Viscosity             :0.007103 5.404582
+ PdV                   :0.014542 11.064952
+ Revert                :0.002319 1.764580
+ Acceleration          :0.006172 4.696174
+ Fluxes                :0.004582 3.486710
+ Cell Advection        :0.024782 18.856170
+ Momentum Advection    :0.043276 32.928183
+ Reset                 :0.004810 3.659957
+ Summary               :0.000683 0.519741
+ Visit                 :0.000000 0.000000
+ Tile Halo Exchange    :0.000001 0.000726
+ Self Halo Exchange    :0.010657 8.108868
+ MPI Halo Exchange     :0.000495 0.376608
+ Total                 :0.131167 99.803714
+ The Rest              :0.000258 0.196286
+

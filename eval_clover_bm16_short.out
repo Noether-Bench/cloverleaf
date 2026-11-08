@@ -1,0 +1,487 @@
+Hydro2d Version 2.000
+Task Count 1
+
+Hydro2d will run from the following input:-
+
+
+Initialising and generating
+
+Reading input file
+
+
+Reading specification for region_id 1
+
+ initial_density 0.2
+ initial_energy 1
+
+Reading specification for region_id 2
+
+ initial_density 1
+ initial_energy 2.5
+ region_id shape_selector rectangular
+ x_lower 0
+ x_upper 5
+ y_lower 0
+ y_upper 2
+
+ grid_nx 3840
+
+ grid_ny 3840
+
+ x_lower 0
+
+ y_lower 0
+
+ x_upper 10
+
+ y_upper 10
+
+ initial_timestep 0.04
+
+ timestep_rise 1.5
+
+ max_timestep 0.04
+
+ stop_time 0.55
+
+ max_steps 87
+
+ test_case_id 4
+ Profiler on
+
+
+
+
+Input read finished.
+
+Setting up initial shape_selector
+
+
+Mesh ratio of 1
+Decomposing the mesh into 1 by 1 chunks
+Decomposing the subdomain with 1 tile_list
+
+Generating chunks
+
+Problem initialised and generated
+
+Time 0
+                Volume          Mass            Density         Pressure        Internal Energy Kinetic Energy  Total Energy    
+ cycle_index: 0   1.000000e+02   2.800000e+01   2.800000e-01   2.800000e-01   4.300000e+01   0.000000e+00   4.300000e+01
+
+Starting the calculation
+ Step 1 time 0 control sound compute_dt  0.00154065 1,1 x 0 y 0
+Wall clock 0.017015
+Average time per cell 1.1539e-09
+Step time per cell    1.1539e-09
+ Step 2 time 0.00154065 control sound compute_dt  0.000940398 1,1 x 0 y 0
+Wall clock 0.0340121
+Average time per cell 1.1533e-09
+Step time per cell    1.1518e-09
+ Step 3 time 0.00248104 control sound compute_dt  0.00119489 1,1 x 0 y 0
+Wall clock 0.051018
+Average time per cell 1.15329e-09
+Step time per cell    1.15248e-09
+ Step 4 time 0.00367594 control sound compute_dt  0.00125898 1,1 x 0 y 0
+Wall clock 0.068001
+Average time per cell 1.1529e-09
+Step time per cell    1.15099e-09
+ Step 5 time 0.00493492 control sound compute_dt  0.00138544 1,1 x 0 y 0
+Wall clock 0.0849531
+Average time per cell 1.15225e-09
+Step time per cell    1.14889e-09
+ Step 6 time 0.00632036 control sound compute_dt  0.00138232 1,1 x 0 y 0
+Wall clock 0.101656
+Average time per cell 1.149e-09
+Step time per cell    1.13199e-09
+ Step 7 time 0.00770268 control sound compute_dt  0.00140862 1,1 x 0 y 0
+Wall clock 0.117612
+Average time per cell 1.13944e-09
+Step time per cell    1.0814e-09
+ Step 8 time 0.0091113 control sound compute_dt  0.00148154 1,1 x 0 y 0
+Wall clock 0.133583
+Average time per cell 1.1324e-09
+Step time per cell    1.08236e-09
+ Step 9 time 0.0105928 control sound compute_dt  0.00146557 1,1 x 0 y 0
+Wall clock 0.149548
+Average time per cell 1.12688e-09
+Step time per cell    1.08202e-09
+ Step 10 time 0.0120584 control sound compute_dt  0.00145516 1,1 x 0 y 0
+
+Time 0.0135136
+                Volume          Mass            Density         Pressure        Internal Energy Kinetic Energy  Total Energy    
+ cycle_index: 10   1.000000e+02   2.800000e+01   2.800000e-01   2.800000e-01   4.296563e+01   3.189771e-02   4.299752e+01
+
+Wall clock 0.166631
+Average time per cell 1.13004e-09
+Step time per cell    1.15783e-09
+ Step 11 time 0.0135136 control sound compute_dt  0.00144489 1,1 x 0 y 0
+Wall clock 0.182603
+Average time per cell 1.12578e-09
+Step time per cell    1.08255e-09
+ Step 12 time 0.0149585 control sound compute_dt  0.00143918 1,1 x 0 y 0
+Wall clock 0.198578
+Average time per cell 1.12224e-09
+Step time per cell    1.08261e-09
+ Step 13 time 0.0163976 control sound compute_dt  0.00144271 1,1 x 0 y 0
+Wall clock 0.216403
+Average time per cell 1.12891e-09
+Step time per cell    1.20808e-09
+ Step 14 time 0.0178403 control sound compute_dt  0.00144845 1,1 x 0 y 0
+Wall clock 0.23246
+Average time per cell 1.12605e-09
+Step time per cell    1.08813e-09
+ Step 15 time 0.0192888 control sound compute_dt  0.00145065 1,1 x 0 y 0
+Wall clock 0.248513
+Average time per cell 1.12356e-09
+Step time per cell    1.08771e-09
+ Step 16 time 0.0207394 control sound compute_dt  0.00145125 1,1 x 0 y 0
+Wall clock 0.264702
+Average time per cell 1.12195e-09
+Step time per cell    1.09687e-09
+ Step 17 time 0.0221907 control sound compute_dt  0.00145195 1,1 x 0 y 0
+Wall clock 0.280739
+Average time per cell 1.11993e-09
+Step time per cell    1.08664e-09
+ Step 18 time 0.0236426 control sound compute_dt  0.00145233 1,1 x 0 y 0
+Wall clock 0.296777
+Average time per cell 1.11814e-09
+Step time per cell    1.0867e-09
+ Step 19 time 0.025095 control sound compute_dt  0.00145245 1,1 x 0 y 0
+Wall clock 0.312887
+Average time per cell 1.11679e-09
+Step time per cell    1.09172e-09
+ Step 20 time 0.0265474 control sound compute_dt  0.00145268 1,1 x 0 y 0
+
+Time 0.0280001
+                Volume          Mass            Density         Pressure        Internal Energy Kinetic Energy  Total Energy    
+ cycle_index: 20   1.000000e+02   2.800000e+01   2.800000e-01   2.800000e-01   4.292931e+01   6.785453e-02   4.299716e+01
+
+Wall clock 0.329957
+Average time per cell 1.11883e-09
+Step time per cell    1.15628e-09
+ Step 21 time 0.0280001 control sound compute_dt  0.00145346 1,1 x 0 y 0
+Wall clock 0.345997
+Average time per cell 1.11735e-09
+Step time per cell    1.08717e-09
+ Step 22 time 0.0294536 control sound compute_dt  0.00145388 1,1 x 0 y 0
+Wall clock 0.362044
+Average time per cell 1.11603e-09
+Step time per cell    1.08738e-09
+ Step 23 time 0.0309074 control sound compute_dt  0.00145405 1,1 x 0 y 0
+Wall clock 0.378105
+Average time per cell 1.11486e-09
+Step time per cell    1.08826e-09
+ Step 24 time 0.0323615 control sound compute_dt  0.00145452 1,1 x 0 y 0
+Wall clock 0.394149
+Average time per cell 1.11375e-09
+Step time per cell    1.08717e-09
+ Step 25 time 0.033816 control sound compute_dt  0.00145493 1,1 x 0 y 0
+Wall clock 0.410211
+Average time per cell 1.11277e-09
+Step time per cell    1.0884e-09
+ Step 26 time 0.0352709 control sound compute_dt  0.0014553 1,1 x 0 y 0
+Wall clock 0.428942
+Average time per cell 1.11883e-09
+Step time per cell    1.26946e-09
+ Step 27 time 0.0367262 control sound compute_dt  0.00145566 1,1 x 0 y 0
+Wall clock 0.445146
+Average time per cell 1.11809e-09
+Step time per cell    1.09789e-09
+ Step 28 time 0.0381819 control sound compute_dt  0.00145577 1,1 x 0 y 0
+Wall clock 0.461067
+Average time per cell 1.11672e-09
+Step time per cell    1.07896e-09
+ Step 29 time 0.0396377 control sound compute_dt  0.00145589 1,1 x 0 y 0
+Wall clock 0.476982
+Average time per cell 1.11543e-09
+Step time per cell    1.07856e-09
+ Step 30 time 0.0410936 control sound compute_dt  0.00145595 1,1 x 0 y 0
+
+Time 0.0425495
+                Volume          Mass            Density         Pressure        Internal Energy Kinetic Energy  Total Energy    
+ cycle_index: 30   1.000000e+02   2.800000e+01   2.800000e-01   2.800000e-01   4.289305e+01   1.037413e-01   4.299679e+01
+
+Wall clock 0.493932
+Average time per cell 1.11656e-09
+Step time per cell    1.14874e-09
+ Step 31 time 0.0425495 control sound compute_dt  0.00145601 1,1 x 0 y 0
+Wall clock 0.509842
+Average time per cell 1.11535e-09
+Step time per cell    1.07849e-09
+ Step 32 time 0.0440055 control sound compute_dt  0.00145617 1,1 x 0 y 0
+Wall clock 0.525776
+Average time per cell 1.11426e-09
+Step time per cell    1.07991e-09
+ Step 33 time 0.0454617 control sound compute_dt  0.00145634 1,1 x 0 y 0
+Wall clock 0.541731
+Average time per cell 1.11329e-09
+Step time per cell    1.08134e-09
+ Step 34 time 0.046918 control sound compute_dt  0.00145653 1,1 x 0 y 0
+Wall clock 0.557794
+Average time per cell 1.11258e-09
+Step time per cell    1.08847e-09
+ Step 35 time 0.0483746 control sound compute_dt  0.00145679 1,1 x 0 y 0
+Wall clock 0.573866
+Average time per cell 1.11194e-09
+Step time per cell    1.08907e-09
+ Step 36 time 0.0498313 control sound compute_dt  0.00145704 1,1 x 0 y 0
+Wall clock 0.589935
+Average time per cell 1.11132e-09
+Step time per cell    1.08887e-09
+ Step 37 time 0.0512884 control sound compute_dt  0.00145727 1,1 x 0 y 0
+Wall clock 0.605969
+Average time per cell 1.11067e-09
+Step time per cell    1.08643e-09
+ Step 38 time 0.0527457 control sound compute_dt  0.00145753 1,1 x 0 y 0
+Wall clock 0.622006
+Average time per cell 1.11007e-09
+Step time per cell    1.08669e-09
+ Step 39 time 0.0542032 control sound compute_dt  0.00145769 1,1 x 0 y 0
+Wall clock 0.640139
+Average time per cell 1.11313e-09
+Step time per cell    1.22884e-09
+ Step 40 time 0.0556609 control sound compute_dt  0.00145773 1,1 x 0 y 0
+
+Time 0.0571186
+                Volume          Mass            Density         Pressure        Internal Energy Kinetic Energy  Total Energy    
+ cycle_index: 40   1.000000e+02   2.800000e+01   2.800000e-01   2.800000e-01   4.285679e+01   1.396118e-01   4.299640e+01
+
+Wall clock 0.657185
+Average time per cell 1.11421e-09
+Step time per cell    1.15513e-09
+ Step 41 time 0.0571186 control sound compute_dt  0.00145774 1,1 x 0 y 0
+Wall clock 0.673203
+Average time per cell 1.11352e-09
+Step time per cell    1.08575e-09
+ Step 42 time 0.0585763 control sound compute_dt  0.00145778 1,1 x 0 y 0
+Wall clock 0.689149
+Average time per cell 1.11276e-09
+Step time per cell    1.08066e-09
+ Step 43 time 0.0600341 control sound compute_dt  0.00145788 1,1 x 0 y 0
+Wall clock 0.705078
+Average time per cell 1.112e-09
+Step time per cell    1.07949e-09
+ Step 44 time 0.061492 control sound compute_dt  0.00145798 1,1 x 0 y 0
+Wall clock 0.721024
+Average time per cell 1.11131e-09
+Step time per cell    1.08074e-09
+ Step 45 time 0.06295 control sound compute_dt  0.00145807 1,1 x 0 y 0
+Wall clock 0.73693
+Average time per cell 1.11058e-09
+Step time per cell    1.07801e-09
+ Step 46 time 0.0644081 control sound compute_dt  0.00145817 1,1 x 0 y 0
+Wall clock 0.752846
+Average time per cell 1.10991e-09
+Step time per cell    1.07856e-09
+ Step 47 time 0.0658662 control sound compute_dt  0.00145834 1,1 x 0 y 0
+Wall clock 0.768916
+Average time per cell 1.10948e-09
+Step time per cell    1.08907e-09
+ Step 48 time 0.0673246 control sound compute_dt  0.00145851 1,1 x 0 y 0
+Wall clock 0.78496
+Average time per cell 1.10903e-09
+Step time per cell    1.08717e-09
+ Step 49 time 0.0687831 control sound compute_dt  0.00145867 1,1 x 0 y 0
+Wall clock 0.801011
+Average time per cell 1.10861e-09
+Step time per cell    1.08772e-09
+ Step 50 time 0.0702418 control sound compute_dt  0.00145883 1,1 x 0 y 0
+
+Time 0.0717006
+                Volume          Mass            Density         Pressure        Internal Energy Kinetic Energy  Total Energy    
+ cycle_index: 50   1.000000e+02   2.800000e+01   2.800000e-01   2.800000e-01   4.282058e+01   1.754413e-01   4.299602e+01
+
+Wall clock 0.818083
+Average time per cell 1.1096e-09
+Step time per cell    1.15683e-09
+ Step 51 time 0.0717006 control sound compute_dt  0.00145903 1,1 x 0 y 0
+Wall clock 0.83412
+Average time per cell 1.10916e-09
+Step time per cell    1.08704e-09
+ Step 52 time 0.0731596 control sound compute_dt  0.00145927 1,1 x 0 y 0
+Wall clock 0.853347
+Average time per cell 1.11291e-09
+Step time per cell    1.30311e-09
+ Step 53 time 0.0746189 control sound compute_dt  0.00145931 1,1 x 0 y 0
+Wall clock 0.869385
+Average time per cell 1.11243e-09
+Step time per cell    1.0867e-09
+ Step 54 time 0.0760782 control sound compute_dt  0.00145932 1,1 x 0 y 0
+Wall clock 0.885411
+Average time per cell 1.11196e-09
+Step time per cell    1.08588e-09
+ Step 55 time 0.0775375 control sound compute_dt  0.00145933 1,1 x 0 y 0
+Wall clock 0.901571
+Average time per cell 1.11167e-09
+Step time per cell    1.09497e-09
+ Step 56 time 0.0789968 control sound compute_dt  0.00145939 1,1 x 0 y 0
+Wall clock 0.917588
+Average time per cell 1.11121e-09
+Step time per cell    1.08535e-09
+ Step 57 time 0.0804562 control sound compute_dt  0.00145946 1,1 x 0 y 0
+Wall clock 0.933639
+Average time per cell 1.11081e-09
+Step time per cell    1.08772e-09
+ Step 58 time 0.0819157 control sound compute_dt  0.00145953 1,1 x 0 y 0
+Wall clock 0.949684
+Average time per cell 1.11042e-09
+Step time per cell    1.08717e-09
+ Step 59 time 0.0833752 control sound compute_dt  0.00145961 1,1 x 0 y 0
+Wall clock 0.96574
+Average time per cell 1.11006e-09
+Step time per cell    1.08798e-09
+ Step 60 time 0.0848348 control sound compute_dt  0.00145969 1,1 x 0 y 0
+
+Time 0.0862945
+                Volume          Mass            Density         Pressure        Internal Energy Kinetic Energy  Total Energy    
+ cycle_index: 60   1.000000e+02   2.800000e+01   2.800000e-01   2.800000e-01   4.278442e+01   2.112187e-01   4.299564e+01
+
+Wall clock 0.9828
+Average time per cell 1.11084e-09
+Step time per cell    1.15594e-09
+ Step 61 time 0.0862945 control sound compute_dt  0.00145982 1,1 x 0 y 0
+Wall clock 0.998862
+Average time per cell 1.11049e-09
+Step time per cell    1.08826e-09
+ Step 62 time 0.0877543 control sound compute_dt  0.00145996 1,1 x 0 y 0
+Wall clock 1.01492
+Average time per cell 1.11014e-09
+Step time per cell    1.08785e-09
+ Step 63 time 0.0892143 control sound compute_dt  0.00146009 1,1 x 0 y 0
+Wall clock 1.03098
+Average time per cell 1.10981e-09
+Step time per cell    1.08866e-09
+ Step 64 time 0.0906744 control sound compute_dt  0.00146023 1,1 x 0 y 0
+Wall clock 1.04702
+Average time per cell 1.10946e-09
+Step time per cell    1.08656e-09
+ Step 65 time 0.0921346 control sound compute_dt  0.00146039 1,1 x 0 y 0
+Wall clock 1.06631
+Average time per cell 1.11252e-09
+Step time per cell    1.3077e-09
+ Step 66 time 0.093595 control sound compute_dt  0.00146059 1,1 x 0 y 0
+Wall clock 1.08234
+Average time per cell 1.11214e-09
+Step time per cell    1.08615e-09
+ Step 67 time 0.0950556 control sound compute_dt  0.00146066 1,1 x 0 y 0
+Wall clock 1.09839
+Average time per cell 1.11178e-09
+Step time per cell    1.08732e-09
+ Step 68 time 0.0965163 control sound compute_dt  0.00146068 1,1 x 0 y 0
+Wall clock 1.11456
+Average time per cell 1.11156e-09
+Step time per cell    1.09573e-09
+ Step 69 time 0.0979769 control sound compute_dt  0.00146067 1,1 x 0 y 0
+Wall clock 1.13059
+Average time per cell 1.11121e-09
+Step time per cell    1.08624e-09
+ Step 70 time 0.0994376 control sound compute_dt  0.00146071 1,1 x 0 y 0
+
+Time 0.100898
+                Volume          Mass            Density         Pressure        Internal Energy Kinetic Energy  Total Energy    
+ cycle_index: 70   1.000000e+02   2.800000e+01   2.800000e-01   2.800000e-01   4.274831e+01   2.469367e-01   4.299525e+01
+
+Wall clock 1.14761
+Average time per cell 1.11182e-09
+Step time per cell    1.15335e-09
+ Step 71 time 0.100898 control sound compute_dt  0.00146077 1,1 x 0 y 0
+Wall clock 1.16384
+Average time per cell 1.11166e-09
+Step time per cell    1.09979e-09
+ Step 72 time 0.102359 control sound compute_dt  0.00146083 1,1 x 0 y 0
+Wall clock 1.17991
+Average time per cell 1.11136e-09
+Step time per cell    1.08894e-09
+ Step 73 time 0.10382 control sound compute_dt  0.00146089 1,1 x 0 y 0
+Wall clock 1.19595
+Average time per cell 1.11104e-09
+Step time per cell    1.08716e-09
+ Step 74 time 0.105281 control sound compute_dt  0.00146096 1,1 x 0 y 0
+Wall clock 1.21201
+Average time per cell 1.11074e-09
+Step time per cell    1.08785e-09
+ Step 75 time 0.106742 control sound compute_dt  0.00146105 1,1 x 0 y 0
+Wall clock 1.22805
+Average time per cell 1.11043e-09
+Step time per cell    1.08724e-09
+ Step 76 time 0.108203 control sound compute_dt  0.00146117 1,1 x 0 y 0
+Wall clock 1.24446
+Average time per cell 1.11047e-09
+Step time per cell    1.11199e-09
+ Step 77 time 0.109664 control sound compute_dt  0.00146129 1,1 x 0 y 0
+Wall clock 1.26039
+Average time per cell 1.11007e-09
+Step time per cell    1.07936e-09
+ Step 78 time 0.111125 control sound compute_dt  0.0014614 1,1 x 0 y 0
+Wall clock 1.27651
+Average time per cell 1.10986e-09
+Step time per cell    1.09288e-09
+ Step 79 time 0.112587 control sound compute_dt  0.00146153 1,1 x 0 y 0
+Wall clock 1.29245
+Average time per cell 1.1095e-09
+Step time per cell    1.0804e-09
+ Step 80 time 0.114048 control sound compute_dt  0.00146168 1,1 x 0 y 0
+
+Time 0.11551
+                Volume          Mass            Density         Pressure        Internal Energy Kinetic Energy  Total Energy    
+ cycle_index: 80   1.000000e+02   2.800000e+01   2.800000e-01   2.800000e-01   4.271227e+01   2.825914e-01   4.299486e+01
+
+Wall clock 1.30939
+Average time per cell 1.10999e-09
+Step time per cell    1.148e-09
+ Step 81 time 0.11551 control sound compute_dt  0.00146183 1,1 x 0 y 0
+Wall clock 1.32532
+Average time per cell 1.10962e-09
+Step time per cell    1.07977e-09
+ Step 82 time 0.116972 control sound compute_dt  0.00146184 1,1 x 0 y 0
+Wall clock 1.34125
+Average time per cell 1.10926e-09
+Step time per cell    1.07966e-09
+ Step 83 time 0.118434 control sound compute_dt  0.00146184 1,1 x 0 y 0
+Wall clock 1.35747
+Average time per cell 1.10914e-09
+Step time per cell    1.09877e-09
+ Step 84 time 0.119895 control sound compute_dt  0.00146185 1,1 x 0 y 0
+Wall clock 1.37359
+Average time per cell 1.10896e-09
+Step time per cell    1.0928e-09
+ Step 85 time 0.121357 control sound compute_dt  0.0014619 1,1 x 0 y 0
+Wall clock 1.38962
+Average time per cell 1.1087e-09
+Step time per cell    1.0859e-09
+ Step 86 time 0.122819 control sound compute_dt  0.00146195 1,1 x 0 y 0
+Wall clock 1.40567
+Average time per cell 1.10847e-09
+Step time per cell    1.08724e-09
+ Step 87 time 0.124281 control sound compute_dt  0.001462 1,1 x 0 y 0
+
+Time 0.125743
+                Volume          Mass            Density         Pressure        Internal Energy Kinetic Energy  Total Energy    
+ cycle_index: 87   1.000000e+02   2.800000e+01   2.800000e-01   2.800000e-01   4.268707e+01   3.074755e-01   4.299454e+01
+
+
+Calculation run_finished
+Hydro2d is finishing
+Wall clock 1.42273
+First cycle_index overhead 0
+
+ Profiler Output        Time     Percentage
+ Timestep              :0.069072 4.854889
+ Ideal Gas             :0.057901 4.069733
+ Viscosity             :0.078044 5.485505
+ PdV                   :0.158432 11.135840
+ Revert                :0.025352 1.781915
+ Acceleration          :0.067371 4.735356
+ Fluxes                :0.050137 3.524030
+ Cell Advection        :0.272507 19.153845
+ Momentum Advection    :0.473662 33.292595
+ Reset                 :0.052318 3.677331
+ Summary               :0.006151 0.432320
+ Visit                 :0.000000 0.000000
+ Tile Halo Exchange    :0.000026 0.001860
+ Self Halo Exchange    :0.104431 7.340233
+ MPI Halo Exchange     :0.005144 0.361551
+ Total                 :1.420549 99.847001
+ The Rest              :0.002177 0.152999
+

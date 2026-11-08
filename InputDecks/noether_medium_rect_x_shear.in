@@ -1,0 +1,23 @@
+*hydro2d
+
+ region_id 1 initial_density=0.50 initial_energy=1.10 velx=0.75 vely=0.05
+ region_id 2 initial_density=1.45 initial_energy=1.80 velx=-0.70 vely=-0.10 shape_selector=rectangle x_lower=3.0 x_upper=17.0 y_lower=1.0 y_upper=5.0
+ region_id 3 initial_density=0.85 initial_energy=2.40 velx=0.20 vely=0.35 shape_selector=circle x_lower=14.0 y_lower=6.0 circle_radius=1.4
+
+ grid_nx=192
+ grid_ny=64
+ tiles_per_subdomain 1
+
+ x_lower=0.0
+ y_lower=0.0
+ x_upper=20.0
+ y_upper=8.0
+
+ initial_timestep=0.004
+ timestep_rise=1.10
+ max_timestep=0.004
+ stop_time=0.032
+ max_steps=8
+ summary_interval=2
+
+*endhydro2d

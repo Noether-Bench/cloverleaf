@@ -1,0 +1,22 @@
+*hydro2d
+
+ region_id 1 initial_density=0.70 initial_energy=1.10 velx=0.40 vely=0.02
+ region_id 2 initial_density=1.60 initial_energy=1.90 velx=-0.30 vely=-0.04 shape_selector=rectangle x_lower=2.0 x_upper=10.0 y_lower=0.2 y_upper=0.8
+
+ grid_nx=48
+ grid_ny=4
+ tiles_per_subdomain 2
+
+ x_lower=0.0
+ y_lower=0.0
+ x_upper=12.0
+ y_upper=1.0
+
+ initial_timestep=0.006
+ timestep_rise=1.2
+ max_timestep=0.006
+ stop_time=0.018
+ max_steps=3
+ summary_interval=1
+
+*endhydro2d

@@ -1,0 +1,20 @@
+*hydro2d
+
+ region_id 1 initial_density=0.2 initial_energy=1.0
+ region_id 2 initial_density=1.0 initial_energy=2.5 shape_selector=rectangle x_lower=0.0 x_upper=5.0 y_lower=0.0 y_upper=2.0
+
+ grid_nx=15360
+ grid_ny=7680
+
+ x_lower=0.0
+ y_lower=0.0
+ x_upper=10.0
+ y_upper=10.0
+
+ initial_timestep=0.04
+ timestep_rise=1.5
+ max_timestep=0.04
+ stop_time=0.5
+ max_steps=87
+
+*endhydro2d
